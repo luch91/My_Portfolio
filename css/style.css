@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@100;600&display=swap');
+
+/* base styles */
+*{
+    font-family: "Quicksand";
+    color: #333;
+}
+
+.container {
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+    color: #efb710;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.links {
+    margin-top: 30px;
+}
+.links a {
+    padding: 6px;
+}
+.links a:hover{
+    color: #d9be0f
+}
+
+.profile-picture{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.profile-picture img {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+.profile-info{
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+.profile-info h2{
+    color: #efb710;
+}
+
+.project-list img {
+    width: 200px;
+    height: 200px;
+}
+.project-list {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.projects {
+    text-align: center;
+}
+
+.ecommerce img {
+    width: 350px;
+    height: 350px;
+    margin-right: 10px;
+}
+
+.ecommerce h1{
+    color: #efb710;
+}
+
+.ecommerce span {
+    width: 300px;
+}
+
+.project-details h1{
+    text-align: center;
+}
+
+.ecommerce{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.social img {
+    width: 350px;
+    height: 350px;
+    margin-right: 10px;
+}
+.social h1{
+    color: #efb710;
+}
+
+.social span {
+    width: 300px;
+}
+.project-details h1{
+    text-align: center;
+}
+
+.social{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+input[type=text], input[type=email], textarea {
+    width: 400px;
+    display: block;
+    padding: 12px 20px;
+    margin: 10px 0;
+
+}
+
+input[type=button]{
+    display: block;
+    font-weight: bold;
+    font-style: 20px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    background-color: #efb710;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-form{
+    text-align: center;
+    margin-top: 30px;
+    display: block;
+    
+}
+form{
+    display: inline-block;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    margin-top: 40px;
+    border-top: 1px solid #f2f2f2;;
+    text-align: center;
+}
